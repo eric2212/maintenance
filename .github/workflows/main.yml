@@ -15,7 +15,7 @@ jobs:
     - name: Checkout sources
       uses: actions/checkout@v4
     - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v3
+      uses: gradle/actions/setup-gradle@v4
     - name: Build with Gradle
       run: ./gradlew build
     - name: Upload Plugin Jar
